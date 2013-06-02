@@ -1,6 +1,8 @@
 package com.test;
 
 /**
+ * Pattern matcher
+ *
  * User: lanqu
  * Date: 30.05.13
  */
@@ -14,6 +16,11 @@ public class Checker {
         this.toCheck = toCheck;
     }
 
+    /**
+     * Checker uses incomming bytes to match the pattern. It can match only straight patterns, not the RegEx expressions
+     * @param b
+     * @return
+     */
     public boolean appendAndCheck(byte b) {
         if (b == toCheck[i]) {
             i++;
