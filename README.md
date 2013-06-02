@@ -53,13 +53,13 @@ Search - Test for Deutche Bank
  Some statistics on processing a directory with 9Gb file that matches the pattern. The match actually is located at the very end of the file.
  Also there are other smaller files without patter.
  
- Size, mb: 9272
- 1 Thread -Xmx64: 66005, 65353, 65724 |No Xmx: 60619, 61961, 61274
- 2 Thread -Xmx64: 43565, 43364, 43136 |No Xmx: 40621, 41396, 41401
- 10 Threads: 45028, 44113, 43866 |No Xmx: 38020, 38563, 39180
- 30 Threads: 50529, 49326, 49665 | No Xmx: 39019, 39067, 39845
- 50 Threads:  47714, 47223, 47079 | No Xmx: 38327, 37859, 38872
- 100 Threads: 49905, 49077, 48756 | No Xmx: 39880, 41405, 37349
+ Size, mb: 9272 <br/>
+ 1 Thread -Xmx64: 66005, 65353, 65724 |No Xmx: 60619, 61961, 61274 <br/>
+ 2 Thread -Xmx64: 43565, 43364, 43136 |No Xmx: 40621, 41396, 41401 <br/>
+ 10 Threads: 45028, 44113, 43866 |No Xmx: 38020, 38563, 39180 <br/>
+ 30 Threads: 50529, 49326, 49665 | No Xmx: 39019, 39067, 39845 <br/>
+ 50 Threads:  47714, 47223, 47079 | No Xmx: 38327, 37859, 38872 <br/>
+ 100 Threads: 49905, 49077, 48756 | No Xmx: 39880, 41405, 37349 <br/>
  
  As we can see - number of threads and available Heap influence execution time. But due to some interference of size of files and number of Threads
  we can see some waves. But in commmon - more memory and more Threads - the less execution time.
